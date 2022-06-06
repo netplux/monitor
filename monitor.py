@@ -9,14 +9,14 @@ import logging
 URL_TO_MONITOR = "https://opensea.io/collection/cyberkongz" #change this to the URL you want to monitor
 DELAY_TIME = 15 # seconds
 
-TWILIO_ACCOUNT_SID = "AC680d2a79da0a924f18b157f78fe7bc69" # replace with your Account SID 
-TWILIO_AUTH_TOKEN = "47017c7310dfc433bc2fc5a9c6eb16fb" # replace with your Auth Token
-TWILIO_PHONE_SENDER = "+18038823803" # replace with the phone number you registered in twilio
-TWILIO_PHONE_RECIPIENT = "+17072874110" # replace with your phone number
+TWILIO_ACCOUNT_SID = "SID" # replace with your Account SID 
+TWILIO_AUTH_TOKEN = "AUTH TOKEN" # replace with your Auth Token
+TWILIO_PHONE_SENDER = "TWILIO PHONE" # replace with the phone number you registered in twilio
+TWILIO_PHONE_RECIPIENT = "PHONE RECEIVE" # replace with your phone number
 
-SENDING_EMAIL_USERNAME = "paintballer4556@gmail.com" # replace with the username of the gmail account you created (e.g. "john.webmonitor" if the email is "john.webmonitor@gmail.com")
-SENDING_EMAIL_PASSWORD = "yaypaintball" # replace with the password of the gmail account you created
-RECIPIENT_EMAIL_ADDRESS = "odinate45@gmail.com" # replace with the email address that will receive the notification
+SENDING_EMAIL_USERNAME = "EMAIL" # replace with the username of the gmail account you created (e.g. "john.webmonitor" if the email is "john.webmonitor@gmail.com")
+SENDING_EMAIL_PASSWORD = "PASSWORD" # replace with the password of the gmail account you created
+RECIPIENT_EMAIL_ADDRESS = "EMAIL RECEIVE" # replace with the email address that will receive the notification
 
 def send_email_alert(alert_str):
     """Sends an email alert. The subject and body will be the same. """
